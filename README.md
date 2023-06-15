@@ -18,3 +18,6 @@ Quality of Service (QoS) settings for publishers and subscribers: This allows de
 
   * CI/CD Robotics pipeline
   * Collateral Project: Convenient duckietown simulator with good physics
+
+### Rules of the game
+  * https://docs.google.com/presentation/d/1jcoR610apIW4TSG5e3uoLgUu6W3gVD0615Q1YFikqD0/edit?usp=sharing
