@@ -1,5 +1,5 @@
 # Getting Started with ROS
-In this project you will about ROS installation, Creating workspace and making packages.
+In this project you will know about ROS installation, Creating a workspace and making packages.
 
 ## Things used in this project
 **Software apps and online services**
@@ -19,12 +19,12 @@ yet make sure to install it before proceeding. There are tons of resources avail
 _Note: You can download Ubuntu 18.04 ISO file from [here](https://old-releases.ubuntu.com/releases/18.04.5/)._
 
 **ROS Melodic Installation**
-ROS (Robot Operating System) provides libraries and tools to help software developers create robot applications. It provides hardware abstraction, device drivers, libraries, visualizers, message-passing, package management, and more. ROS is licensed under an open source, BSD license.
+ROS (Robot Operating System) provides libraries and tools to help software developers create robot applications. It provides hardware abstraction, device drivers, libraries, visualizers, message-passing, package management, and more. ROS is licensed under an open-source, BSD license.
 
 Here the [distribution](http://wiki.ros.org/Distributions) compatible with Ubuntu 18.04 is the [ROS Melodic Morenia](http://wiki.ros.org/melodic). Follow the steps below to install ROS Melodic
 
 **Installation Steps**
-* Setup your computer to accept software from packages.ros.org.
+* Set up your computer to accept software from packages.ros.org.
 ```sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'```
 
 * Set up your keys.
@@ -37,11 +37,11 @@ Here the [distribution](http://wiki.ros.org/Distributions) compatible with Ubunt
 ```sudo apt-get upgrade```
 ```sudo apt-get dist-upgrade```
 
-* Install the ROS recommended configuration.
+* Install the ROS-recommended configuration.
 ```sudo apt-get install ros-melodic-desktop-full```
 
 **Configuration Steps**
-* Adding environment variables: To Automatically add ROS environment variables to your bash session every time a new shell [(terminal)](https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.html) is launched, enter the following commands (this step is similar as adding environmental variable in windows):
+* Adding environment variables: To Automatically add ROS environment variables to your bash session every time a new shell [(terminal)](https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.html) is launched, enter the following commands (this step is similar as adding an environmental variable in windows):
 ```echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc```
 ```source ~/.bashrc```
 
