@@ -281,10 +281,10 @@ Thank you for reading! I hope you find this tutorial useful and that you can sta
 - If you have problems fetching rolling recipes, please use galactic or foxy.
 
 **References:**
-https://www.hackster.io/
-https://www.packtpub.com/product/ros-robotics-projects
-https://www.skyfilabs.com/blog/10-simple-ros-projects-for-beginners
-https://robocademy.com/2020/10/15/open-source-ros-projects-from-ros-developer-learning-path/
+[Hackster](https://www.hackster.io/)
+[<Packt>](https://www.packtpub.com/product/ros-robotics-projects)
+[Skyfi labs](https://www.skyfilabs.com/blog/10-simple-ros-projects-for-beginners)
+[Robocademy](https://robocademy.com/2020/10/15/open-source-ros-projects-from-ros-developer-learning-path/)
 
 
 
