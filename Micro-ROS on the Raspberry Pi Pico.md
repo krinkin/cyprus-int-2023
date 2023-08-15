@@ -157,4 +157,7 @@ slots:
 ```
 
 **References:**
-https://www.hackster.io/ros/projects
+[Hackster](https://www.hackster.io/)
+[<Packt>](https://www.packtpub.com/product/ros-robotics-projects)
+[Skyfi labs](https://www.skyfilabs.com/blog/10-simple-ros-projects-for-beginners)
+[Robocademy](https://robocademy.com/2020/10/15/open-source-ros-projects-from-ros-developer-learning-path/)
