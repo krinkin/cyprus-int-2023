@@ -165,7 +165,7 @@ Start a new terminal prompt and run the below command in the terminal:
 ```rosrun turtlesim turtlesim_node```
 
 If everything is correct, we will get the following screen:
-![Alt text](TurtleSim.png)
+![Alt text](img/TurtleSim.png)
 
 _Congratulations! We are done with the ROS installation._
 
@@ -202,7 +202,7 @@ In the terminal which you sourced the environment, run below command
 ```roslaunch rplidar_ros view_rplidar.launch```
 
 An instance of **Rviz** will then open with a map of the RPLIDAR’s surroundings.
-![Alt text](RVIZ.png)
+![Alt text](img/RVIZ.png)
 
 If you want to learn more about **Rviz,** read this [tutorial](http://wiki.ros.org/rviz).
 
