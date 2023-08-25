@@ -35,6 +35,7 @@ cd opengl_ros
 gedit scripts/install_opencv.sh
 ```
 Here is the [install_opencv.sh](https://github.com/qboticslabs/opengl_ros/blob/master/scripts/install_opencv.sh) script for installing customized OpenCV for ROS.
+
 ![Alt text](img/opencv-script.jpeg)
 
 If you want to install customized OpenCV, first edit the configuration inside this script and save it. The main configuration parameters are
@@ -55,6 +56,7 @@ After building OpenCV, you may have to do some editing in [CMakeLists.txt](https
 I have tested this package in ROS Kinetic and Melodic. The current version of CMakeLists.txt is for ROS Melodic. You can do some simple customization in order to make it compile with Kinetic.
 
 Here are main sections in the CMakeLists.txt
+
 ![Alt text](img/cmake_edit.jpeg)
 
 **Note:** For ROS Kinect users, just search for _**melodic**_ in the catkin_INCLUDE_DIRS, and catkin_LIBRARIES variable and replace it with _**kinetic.**_
@@ -86,21 +88,26 @@ Here is the output video:
 You can find the OpenGL_ROS code [cv_gl_ros.cpp](https://github.com/qboticslabs/opengl_ros/blob/master/src/cv_gl_ros.cpp) from opengl_ros/src/.
 
 Here is the flow of the opengl_ros node.
+
 ![Alt text](img/pgm_flow.jpeg)
 
 **Acquiring ROS Image messages**
 If you check the [cv_gl_ros.cpp](https://github.com/qboticslabs/opengl_ros/blob/master/src/cv_gl_ros.cpp), you can find a class ImageROS, which helps to receive and publish ROS images.
+
 ![Alt text](img/image_ros_screen.jpeg)
 
 **Initializing track bar and OpenGL rendering Window**
 You can see the initialization of the OpenGL render window and two trackbars. One is for changing the x_rotation and others for changing y_rotation of the 3D cube.
+
 ![Alt text](img/init_window1.jpeg)
 
 **Render 2D texture and 3D object**
 The on_opengl(void* param) is a callback function that is responsible for drawing the 2D texture in the background and drawing a 3D cube on top of it. In this code, the 2D texture is the input image itself. The callback read the trackbar position and render the cube orientation based on that value.
+
 ![Alt text](img/draw_2d_3d_cube_edit.jpeg)
 
 Here is the while() loop which is doing the image acquisition, 2D and 3D rendering in OpenGL window, and checking for _'Esc'_ key in order to quit the program.
+
 ![Alt text](img/final_loop1.jpeg)
 
 **OpenCV-OpenGL interface**
