@@ -1,19 +1,19 @@
 # Building a Smart Navigation System using myCobot and myAGV
 **Here is a documentation of the development of an automated navigation project with myAGV and myCobot.**
 
-![Alt text](https://hackster.imgix.net/uploads/attachments/1562639/1-1_iJUKb4rWn0.gif?auto%253Dformat%252Ccompress%2526gifq%253D35%2526w%253D900%2526h%253D675%2526fit%253Dmin%2526fm%253Dmp4)
+<video src="img/1-1_iJUKb4rWn0.mp4" controls title="Title"></video>
 
 ## Things used in this project
 **Hardware components**
-Elephant Robotics myAGV ×1	
-Elephant Robotics myCobot-6 DOF collaborative robot ×1	
-Raspberry Pi 4 Model B ×1	
+* Elephant Robotics myAGV ×1	
+* Elephant Robotics myCobot-6 DOF collaborative robot ×1	
+* Raspberry Pi 4 Model B ×1	
 
 **Software apps and online services**
-ROS Robot Operating System
+* ROS Robot Operating System
 
 **Hand tools and fabrication machines**
-Elephant Robotics Adaptive Gripper
+* Elephant Robotics Adaptive Gripper
 
 ### Story
 
@@ -29,17 +29,17 @@ My project goal is to integrate these two devices to achieve automated logistics
 
 myAGV, a SLAM car that is capable of mapping and navigation.
 
-[Title](img/1.avif)
+![Alt text](img/1.jpg)
 
 myCobot280 M5Stack, a six-axis collaborative robotic arm with a complete API interface that can be controlled via [Python](https://www.python.org/).
 
-[Title](img/2.avif)
+![Alt text](img/2.jpg)
 
 An adaptive gripper that can be mounted as an end effector with MyCobot280, which is capable of grasping objects.
 
-[Title](img/3.avif)
+![Alt text](img/3.jpg)
 
-[Title](img/4.avif)
+![Alt text](img/4.jpg)
 
 Development environment:
 
@@ -50,7 +50,7 @@ Note: myAGV is controlled by Raspberry Pi 4B, and all environment configurations
 **Project**
 The picture below shows the general flow of this project.
 
-[Title](img/5.avif)
+![Alt text](img/5.jpg)
 
 I split the function into one, a small part to be implemented independently and finally integrated together.
 
@@ -98,7 +98,7 @@ Based on the above conditions, there are two ways to establish communication bet
 
 Here, I choose to use serial communication and directly connect them with a data cable.
 
-[Title](img/6.avif)
+![Alt text](img/6.jpg)
 
 Here I recommend a software called [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/), which is a cross-platform remote control software. I use VNC to remotely control myAGV, which is very convenient because I don't have to carry a monitor around.
 
