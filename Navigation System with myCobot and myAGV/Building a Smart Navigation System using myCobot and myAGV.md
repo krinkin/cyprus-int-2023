@@ -1,7 +1,7 @@
 # Building a Smart Navigation System using myCobot and myAGV
 **Here is a documentation of the development of an automated navigation project with myAGV and myCobot.**
 
-https://github.com/krinkin/cyprus-int-2023/assets/93001442/fbd9b219-030e-4123-af05-20726e12d41a
+https://github.com/krinkin/cyprus-int-2023/assets/93001442/e22226df-a615-44ae-87de-515b0928fb94
 
 ## Things used in this project
 **Hardware components**
